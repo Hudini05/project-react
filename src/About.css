@@ -1,0 +1,87 @@
+.about-container {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.about-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.about-container a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.about-container a:hover {
+    text-decoration: underline;
+}
+
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slick-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.slick-slider {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 24px;
+    color: #007bff;
+    z-index: 1;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    color: #0056b3;
+}
+
+.slick-dots {
+    bottom: -30px;
+}
+
+.slick-dots li button {
+    background-color: #007bff;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #0056b3;
+}
+
+.slick-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .carousel-container {
+        width: 100%;
+    }
+
+    .about-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .about-container h2 {
+        font-size: 1.2rem;
+    }
+}
