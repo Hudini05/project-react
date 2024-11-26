@@ -29,6 +29,12 @@ function App() {
       tytul: 'Twórca Strony',
       opis: 'Pasjonuje się carrowaniem jadźki w Fortnite.',
       wiek: 'Wiek: 19 lat',
+    },
+    {
+      imie: 'Marcin Filianowicz',
+      tytul: 'Twórca Strony',
+      opis: 'Pasjonuje się carrowaniem jadźki IRL.',
+      wiek: 'Wiek: 20 lat',
     }
   ];
 
